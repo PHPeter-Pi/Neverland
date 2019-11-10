@@ -1,6 +1,6 @@
 # PHPeter-Pi
 
-PHPeter-Pi は ５〜15 人規模の店舗を支援するためのオープンソースの Docker コンテナ・ライブラリです。
+[PHPeter-Pi](https://github.com/PHPeter-Pi/) は 5〜10 人規模の店舗を支援するためのオープンソースの Docker コンテナ・ライブラリです。
 
 主に Raspberry Pi ZeroW および RasPi 3 の Docker 上で動かすことを前提としています。
 
@@ -25,7 +25,7 @@ PHPeter-Pi は ５〜15 人規模の店舗を支援するためのオープン�
 - ハードウェア:
   - RaspberryPi Zero W(ARMv6l)
   - RaspberryPi 3(ARMv7l)
-- OS: v9（Stretch）, v10（Buster）
+- OS: Raspbian Stretch Lite (v9), Buster Lite (v10)
 - Docker: Docker version 19.03.4
 - Docker Compose: 1.25.0dev
 
@@ -33,7 +33,7 @@ PHPeter-Pi は ５〜15 人規模の店舗を支援するためのオープン�
 
 ### Peterpan
 
-- https://github.com/PHPeter-Pi/peterpan
+- [https://github.com/PHPeter-Pi/peterpan](https://github.com/PHPeter-Pi/peterpan)
 
 Markdown で書かれたページを HTML で表示するためのサンプルです。ライブラリというよりは HTML テンプレートです。
 
@@ -43,7 +43,7 @@ SEO には向きませんが、更新頻度の多いページを Markdown で公
 
 ### Tinker-Bell
 
-- https://github.com/PHPeter-Pi/Tinker-Bell
+- [https://github.com/PHPeter-Pi/Tinker-Bell](https://github.com/PHPeter-Pi/Tinker-Bell)
 
 来客数のカウントを行うだけの Web API コンテナです。現在の来客数管理に利用します。
 
@@ -55,7 +55,7 @@ SEO には向きませんが、更新頻度の多いページを Markdown で公
 
 ### JAN
 
-- https://github.com/PHPeter-Pi/JAN
+- [https://github.com/PHPeter-Pi/JAN](https://github.com/PHPeter-Pi/JAN)
 
 JAN コードから商品情報を返すだけの Web API コンテナです。仕入れ管理にバーコードを使う場合の商品情報取得に使います。
 
@@ -63,7 +63,7 @@ JAN コードから商品情報を返すだけの Web API コンテナです。�
 
 ### Jolly Roger
 
-- https://github.com/PHPeter-Pi/JollyRoger
+- [https://github.com/PHPeter-Pi/JollyRoger](https://github.com/PHPeter-Pi/JollyRoger)
 
 同じ Docker ネットワーク内にある Web API（もしくは HTTP 接続）を、外部に一般公開するためのコンテナです。
 
@@ -73,7 +73,7 @@ JAN コードから商品情報を返すだけの Web API コンテナです。�
 
 ### Nana
 
-- https://github.com/PHPeter-Pi/Nana
+- [https://github.com/PHPeter-Pi/Nana](https://github.com/PHPeter-Pi/Nana)
 
 コンテナの Web API の動作確認を行うためのテスト用コンテナです。単独では利用しません。
 
